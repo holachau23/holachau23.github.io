@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="../js/app.js">
+    </script>
+    <title>Not-flix - Contacto</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html" class="active">Home</a>
+            <a href="/pages/movies.html">Películas</a>
+            <a href="/pages/contact.html">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="bi bi-list"></i>
+                <a href="#search"><i class="bi bi-search"></i></a>
+                <a href="login.html"><i class="bi bi-person-fill"></i></a>
+            </a>
+        </div>
+    </nav>
+    <div class="cuerpo bg-dark">
+        <h1>Contáctenos</h1>
+        <p> Si desea dejarnos alguna crítica constructiva para poder mejorar nuestro sitio en el futuro,
+            este es el lugar para hacerlo. No dude en escribirnos, nosotros nos tomaremos el delicado trabajo
+            de leer absolutamente <span style="font-weight: bold;">TODOS</span> los comentarios que nos dejen
+            para poder así mejorar como servicio. Si quiere agregar alguna película o desea agregar alguna
+            funcionalidad,
+            este es el lugar que estaba buscando! Todo lo que usted tenga para decirnos, nos es de muchísima ayuda
+            para poder posicionarnos como la mejor plataforma de streaming de video del planeta.<br>
+            Estamos esperando con ansias sus comentarios!
+        </p>
+        <form class="row needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validation01" class="form-label">Nombre(s)</label>
+                <input type="text" class="form-control" id="validation01" placeholder="Ingrese aquí su(s) nombre(s)"
+                    required>
+                <div class="valid-feedback">Qué lindo nombre!</div>
+                <div class="invalid-feedback">Por favor, indique su(s) nombre(s)</div>
+            </div>
+            <div class="col-md-5">
+                <label for="validation02" class="form-label">Apellido(s)</label>
+                <input type="text" class="form-control" id="validation02" placeholder="Ingrese aquí su(s) apellido(s)"
+                    required>
+                <div class="valid-feedback">Veo un apellido importante por ahí ;)</div>
+                <div class="invalid-feedback">Por favor, indique su(s) apellido(s)</div>
+            </div>
+            <div class="col-md-6">
+                <label for="validation03" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="validation02"
+                    placeholder="Ingrese aquí suciudad de residencia" required>
+                <div class="invalid-feedback">Por favor, ingrese una ciudad válida</div>
+            </div>
+            <div class="provincia col-md-3">
+                <labe for="validation04" class="form-label">Provincia</labe>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Selecciona una</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Buenos Aires Capital">Buenos Aires Capital</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Rios">Entre Rios</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquen">Neuquen</option>
+                    <option value="Rio Negro">Rio Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Santiago del Estero">Santiago del Estero</option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                    <option value="Tucuman">Tucuman</option>
+                </select>
+                <div class="invalid-feedback">
+                    Por favor, seleccione una provincia
+                </div>
+            </div>
+            <div class="col-md-9">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="usuario" required>
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="email" placeholder="servidor" required>
+                    <span class="input-group-text">.com</span>
+                    <div class="invalid-feedback">Ingrese un e-mail válido</div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <label for="comment" class="form-label">Comentario:</label>
+                <textarea class="form-control" id="comment"
+                    placeholder="Deje aquí su crítica constructiva..."></textarea>
+            </div>
+            <div class="col-md-9">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">Acepto los términos y condiciones</label>
+                    <div class="invalid-feedback">Por favor, acepte los términos y condiciones para continuar</div>
+                </div>
+                <div class="col-md-9">
+                    <button class="btn btn-secondary" type="submit">Enviar</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="social">
+            <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.twitch.tv" target="_blank"><i class="bi bi-twitch"></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+    <script>
+        (function () {
+            'use strict'
+
+            // Obtengo todos los elementos del form que requieren validación
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Armamos un loop sobre los elementos y prevenimos que se manden de estar mal.
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+</body>
+
+</html>
