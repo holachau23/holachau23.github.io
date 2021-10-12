@@ -11,7 +11,6 @@
 
 body {
     margin: 0;
-    min-width: 430px;
   }
 
   html{
@@ -196,7 +195,7 @@ a {
       padding: 0
     }
     .item a img{
-    width: 20vh;
+    width: 10vh;
     height: auto;
     }
 
