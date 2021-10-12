@@ -192,10 +192,11 @@ a {
     }
 
     .item {
-      padding: 0
+      padding: 0;
+      width: 10vw
     }
     .item a img{
-    width: 1vh;
+    width: auto;
     height: auto;
     }
 
@@ -234,11 +235,11 @@ a {
 
     /****MOVIES****/
     .item a img{
-      width: 25vh;
+      width: 25vw;
       height: auto;
     }
     .item {
-      padding-left: 2em
+      padding: 0;
     }
   
   }
