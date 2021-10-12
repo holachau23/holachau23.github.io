@@ -24,6 +24,7 @@ a {
   /****TOPNAV****/
   
   .topnav {
+    width: 100%;
     overflow: hidden;
     background-color: #233870;
   }
@@ -59,7 +60,7 @@ a {
 
   .content{
     grid-area: content;
-    min-width: 400px;
+    min-width: 360px;
   }
   .container {
     display: flex;
